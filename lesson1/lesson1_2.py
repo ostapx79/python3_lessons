@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 #: python3_lessons/lesson1/lesson1_2.py
 
-# сылка на ячейку в память П/К (переменая)
+# ссылка на ячейку в память П/К (переменная)
 # и типы данных
 
 numb = 32 # целое число
 strings = 'hello' # срока
 strings_s = "world" # тоже строка
-float_f = .4 # веществинные числа
+float_f = .4 # вещественные числа
 lists = [numb, strings, strings_s, float_f] # список
-tuple_t = (3, ) # кортеж из одного елемента
-dict_d = {'tuple': tuple_t, 'list': lists} # дикционар из двух елементов
+tuple_t = (3, ) # кортеж из одного элемента
+dict_d = {'tuple': tuple_t, 'list': lists} # словарь из двух элементов
 
 print(numb)
 print(strings)
