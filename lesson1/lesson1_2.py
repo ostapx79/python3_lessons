@@ -19,3 +19,14 @@ print(float_f)
 print(lists)
 print(tuple_t)
 print(dict_d)
+
+
+# Функция (или процедура) которая считывает данные от пользователя и выводит на экран.
+def numb(i):
+    for i in range(i):
+        print(i, end='')
+
+n = int(input("Введите число -> "))
+numb(n)
+print()
+
